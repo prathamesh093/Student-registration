@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h2>Student Register Yourself Here...</h2>
+        <form id="registrationForm" onsubmit="return validateForm()" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="phone">Phone number:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="PRN">PRN:</label>
+            <input type="text" id="PRN" name="PRN" required>
+
+            <label for="Roll no">Roll no:</label>
+            <input type="text" id="Roll no" name="Roll no" required>
+
+            <label for="Course">Course:</label>
+            <input type="text" id="Course" name="Course" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            
+            <button id="button" type="submit">Register</button>
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
